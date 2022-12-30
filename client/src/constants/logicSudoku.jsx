@@ -18,7 +18,7 @@ const logicSudoku = () => {
 
   useEffect(() => {
     if (chances === 0) {
-      history.push('/winner');
+      history.push('/game-over');
     }
   }, [chances, history]);
   console.log(sudoku.solution.split(''));
