@@ -1,0 +1,28 @@
+.Index{
+  width: 50%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  div{
+    .buttons{
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+
+
+  @media (max-width: 960px) {
+    width: 60%;
+  }
+
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+}

@@ -1,0 +1,13 @@
+.YouWin{
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  .buttons{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}
