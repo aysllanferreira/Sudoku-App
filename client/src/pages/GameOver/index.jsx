@@ -5,15 +5,17 @@ import Navbar from '../../components/Navbar';
 
 function GameOver() {
   return (
-    <div className="GameOver">
+    <>
       <Navbar />
-      <Container>
-        <h1>Game Over!</h1>
+      <div className="GameOver">
+        <Container>
+          <h1>Game Over!</h1>
 
-        <p>Thanks for playing!</p>
-        <Button variant="primary" href="/">Play again</Button>
-      </Container>
-    </div>
+          <p>Thanks for playing!</p>
+          <Button variant="primary" href="/">Play again</Button>
+        </Container>
+      </div>
+    </>
   );
 }
 
